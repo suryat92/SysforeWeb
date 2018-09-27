@@ -1,0 +1,481 @@
+.table-color {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 0;
+}
+
+    .table-color tr td {
+        border-top: 1px solid #dcdcdc;
+    }
+
+.td-color {
+    background-color: #d9e6ea !important;
+}
+
+.table-color tr ul, .table-color h3 {
+    margin: 0;
+}
+
+.table-center th, .table-center td {
+    text-align: center !important;
+}
+
+.call-us {
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #d9e6ea;
+    font-size: 15px;
+    margin: 10px 10px 0 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.red-font {
+    color: #C89610;
+    font-size: 20px;
+}
+
+.window-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.para, .para1 {
+    margin: 10px;
+}
+
+.para1 {
+    margin-top: 80px;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.colorText {
+    color: #7030A0;
+}
+
+.sysforelogo {
+    margin-top: -10px !important;
+}
+
+.margin-adjust {
+    margin-top: 70px !important;
+}
+
+.aws {
+    width: 150px;
+}
+
+.micro {
+    height: 60px;
+}
+
+.veeam {
+    height: 60px;
+}
+
+.infinitylogos {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.zertologo {
+    height: 40px;
+    margin-top: 15px;
+}
+
+.oldlogos {
+    height: 60px;
+}
+
+.newveeam {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.oldlogowrap, .newlogowrap {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5px;
+    border: solid 1px #3d4550;
+    background-color: #3d4550;
+    border-radius: 4px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    width: 19%;
+}
+
+.newlogowrap {
+    height: 83px;
+}
+
+.partner-logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.partner-hide {
+    display: none;
+}
+
+.readmore-career {
+    margin-top: 50px;
+}
+
+.table.agenda-table tbody > tr:nth-child(odd) > td, .table.table-striped tbody > tr:nth-child(odd) > th {
+    background-color: #EDF4FC;
+}
+
+.table.agenda-table tbody > tr:nth-child(even) > td, .table.table-striped tbody > tr:nth-child(even) > th {
+    background-color: #ffffff;
+}
+
+.agenda-table {
+    border: 1px solid #075D98;
+}
+
+    .agenda-table th {
+        background-color: #0070B8;
+        color: #ffffff;
+        border: 1px solid #075D98;
+    }
+
+    .agenda-table td {
+        border: 1px solid #075D98;
+        color: rgb(0,0,0);
+    }
+
+.agenda {
+    width: 100px;
+    height: 30px;
+    background-color: #045D95;
+    color: #ffffff !important;
+}
+
+.arrow-right-agenda {
+    color: #ffffff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.agenda-table th:first-child, .agenda-table td:first-child {
+    width: 180px;
+}
+
+.formfield-healthcare {
+    margin-bottom: 25px !important;
+}
+
+.healthcare-input {
+    padding: 12px 10px !important;
+}
+
+.address-healthcare {
+    margin-bottom: 10px !important;
+}
+
+.session {
+    margin-top: 10px;
+}
+
+.address-part {
+    margin-bottom: 10px !important;
+}
+
+.form-title-roundtable-registration {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.event-details {
+    margin-bottom: 30px;
+}
+
+.required-text {
+    color: red;
+}
+
+.venue-details {
+    padding-left: 0px !important;
+}
+
+.venue-firstline {
+    margin-bottom: 10px;
+}
+.sysfore-logo-wrap{
+    float:right;
+}
+.form-inputfield{
+    padding:7px !important;
+}
+.form-div label{
+    line-height:35px !important;
+    font-size:13px !important;
+}
+.form-sub-button{
+   background-color:#FF9300 !important;
+    border-radius:4px;
+    border:none !important;
+    background:url("../marketing/Mobile-Audit-App-for-Microfinance-Companies/CTA.png");
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    width:200px;
+}
+.microsoft-gold-partner-logo{
+   margin-bottom:10px;
+    margin-top:-15px;
+}
+.mobileaudit-pageheader{
+    height:515px !important;
+}
+.mobileaudit-benefits{
+    text-align:center;
+}
+.mobileaudit-benefits-text{
+    margin-top:20px;
+}
+.full-width-block{
+    background-color:#E7E7E7;
+  
+}
+.mobileaudit-audit{
+    text-align:center;
+     
+}
+.mobileaudit-audit-text{
+    text-align:justify;
+    margin-top:20px;
+}
+.mobileaudit-testimonials{
+    background-color:#FF9300;
+    border-radius:25px;
+    margin:0px 50px 20px 50px;
+    text-align:center;
+    color:#fff;
+    padding:20px;
+}
+.mobile-audit-titlesection{
+    text-align:center;
+    margin:20px 0px;
+}
+.mobileaudit-footer{
+    text-align:justify;
+    padding:30px;
+}
+.mobileaudit-mainmenu{
+    float:none !important;
+    text-align:center !important;
+}
+.mobileaudit-ebook{
+    padding:40px;
+}
+.mobileaudit-ebooktitle{
+    margin-bottom:-10px;
+    margin-top:30px;
+}
+.mobileaudit-thanku-footer{
+    padding-top:0 !important;
+    border-top:none !important;
+}
+.mobileaudit-pageheader-thanku{
+    width:330px;
+}
+@media screen and (max-width:991px) {
+    .venue-details {
+        padding-left: 20px !important;
+    }
+    .microsoft-gold-partner-logo{
+        width:170px;
+        margin-top:0px !important;
+    }
+    .mobileaudit-auditcol{
+        padding:10px 50px 10px 50px !important; 
+        text-align:center;
+    }
+    .mobileaudit-casestudies{
+        margin-bottom:40px;
+    }
+    .agenda-table th:first-child, .agenda-table td:first-child {
+        width: 140px;
+    }
+
+    .visible {
+        display: none;
+    }
+
+    .hidden {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .margin-adjust {
+        margin: 0px 0px 30px 0px !important;
+    }
+
+    .sysforelogo {
+        margin-top: 5px !important;
+    }
+
+    .logoamazon {
+        margin-bottom: 10px;
+        width: 75%;
+    }
+
+    .resp {
+        margin: 10px 0px !important;
+    }
+
+    .disc {
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width:991px ) and (min-width:768px) {
+
+    .logoclass {
+        margin-top: 10px;
+        height: 50px !important;
+        width: 180px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .micro {
+        height: 40px !important;
+        width: 140px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 190px !important;
+    }
+
+    .veeam {
+        height: 40px !important;
+        width: 100px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:462px) {
+    .banner-para {
+        margin-top: 10px !important;
+    }
+
+    .micro {
+        padding: 0;
+        height: 30px !important;
+        width: 140px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 140px !important;
+    }
+
+    .logoclass {
+        padding: 0;
+        margin-top: 10px;
+        height: 28px !important;
+        width: 115px !important;
+    }
+
+    .aws {
+        padding: 0;
+        margin-top: 10px;
+        height: 50px !important;
+        width: 75px !important;
+    }
+
+    .veeam {
+        padding: 0;
+        height: 30px !important;
+        width: 100px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:461px) {
+    .agenda-table th:first-child, .agenda-table td:first-child {
+        width: 110px;
+    }
+
+    .aws {
+        padding: 0;
+        margin-top: 10px;
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+    .micro {
+        padding: 0;
+        height: 30px !important;
+        width: 120px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 80px !important;
+    }
+
+    .logoclass {
+        padding: 0;
+        height: 30px !important;
+        width: 90px !important;
+        margin-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px !important;
+    }
+
+    .veeam {
+        padding: 0;
+        height: 30px !important;
+        width: 50px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .venue-details {
+        margin-bottom: 20px;
+    }
+
+    .partner-hide {
+        display: block;
+    }
+
+    .partner-show {
+        display: none;
+    }
+
+    .partner-logo {
+        margin-bottom: 30px;
+    }
+
+    .partner-logo {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    /*.title-career {
+    margin-top:10px !important;
+    }*/
+    /*.text-career {
+        margin-top:47px;
+    }*/
+}

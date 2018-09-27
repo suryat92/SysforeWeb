@@ -1,0 +1,787 @@
+/* 	::
+
+	:: File 		: styles.css
+	:: About 		: Your stylesheet file
+
+:: */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+}
+#main-menu > li, #main-menu ul.dropdown > li {
+	list-style-type: none;
+	font-size: 11.5px;
+	line-height: 20px;
+}
+#header .navbar {
+	background-color: #fff;
+}
+#footer ul.nav {
+	margin-top:15px;
+}
+#footer {
+	padding-top:20px;
+}
+hr, .devider-top:before, .devider-bottom:after {
+	margin:15px 0;
+}
+.testimonial-inner {
+	padding-bottom:0px;
+}
+.topbar {
+	color: #666666;
+	background-color: #fff;
+	height: 54px;
+	border-bottom:1px #CCCCCC;
+}
+.topbar a {
+	color: #666666;
+}
+.topbar a:hover {
+	color:#34aadc;
+}
+.social a:hover {
+	color: #fff;
+}
+ @media (max-width: 1024px) {
+#main-menu > li, #main-menu ul.dropdown > li {
+list-style-type: none;
+font-size: 11px;
+line-height: 20px;
+}
+}
+#header .logo {
+	margin-top: -30px;
+}
+/*.title.title-section {
+margin-top:10px;
+}*/
+			
+			
+@media (max-width: 991px) {
+#header .logo {
+height: 40px !important;
+margin-top: -8px;
+}
+
+div.text .more-text{
+    display: block;	
+}
+
+div.text .more{
+    display:none;
+}
+}
+/* 	:: :::::::::::: :: */
+/* 	:: Scrollnav  :: */
+/* 	:: :::::::::::: :: */
+.scrollnav {
+	background-color: #f9f9f9;
+	color: rgba(45, 52, 62, 0.5);
+	clear: both;
+}
+.scrollnav ul {
+	padding: 12px 0;
+	/*padding: 7px 0 0 0;*/
+	margin: 0;
+	display: inline-block;
+	line-height: 0;
+}
+.scrollnav ul li {
+	display:inline-block;
+	vertical-align: middle;
+	list-style-type: none;
+	position: relative;
+	font-size: 15px;
+	padding-left: 30px;
+	line-height: 25px;
+}
+.scrollnav ul li:after {
+	/*content: "\f105";*/
+			content: "|";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	left: 12px;
+	top: 0;
+}
+.scrollnav ul li:first-child {
+	padding-left: 0;
+}
+.scrollnav ul li:first-child:after {
+	display: none;
+}
+.scrollnav ul li a {
+	color: rgba(45, 52, 62, 0.8);
+	display: block;
+}
+.scrollnav ul li a.home {
+	font-size: 2em;
+	padding-left: 0;
+}
+.scrollnav ul li a.home:before {
+	font-family: FontAwesome;
+	content: "\f015";
+}
+.scrollnav ul li a.home i {
+	display: block;
+}
+.scrollnav ul li.current a,  .scrollnav ul li a:hover {
+	color: rgba(52, 170, 220, 1);
+}
+/*Font size for rows and image alignment on top--->inner pages*/				
+.row.row-inline > * {
+	vertical-align: top;
+	font-size: 15px;
+}
+.tbl_col1 {
+	text-align:left;
+	font-weight:bold;
+}
+.tbl_hd {
+	text-align:left;
+	font-weight:bold;
+	background-color:#9BBB59;
+}
+.tbl_col2 {
+	text-align:left;
+}
+.tr_border {
+	border:1px solid #666666;
+}
+.btnswitchtoform {
+	margin-bottom: 30px;
+}
+/* Some basic styles */
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+button {
+	font-size: 100%;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* Not needed for tooltips to work */
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+ position: relative;
+ z-index: 2;
+ cursor: pointer;
+}
+/* Hide the tooltip content by default */
+[data-tooltip]:before, [data-tooltip]:after {
+	visibility: hidden;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	pointer-events: none;
+}
+/* Position tooltip above the element */
+[data-tooltip]:before {
+	position: absolute;
+	top: -169%;
+	left: 50%;
+	margin-bottom: 32px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 160px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	background-color: #34aadc;
+	color: #fff;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+}
+/*[data-tooltip]:before {
+	position: absolute;
+	bottom: -14%;
+	left: 50%;
+	margin-bottom: 76px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 160px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	background-color: #34aadc;
+	
+	color: #fff;
+	content: attr(data-tooltip1);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+}*/
+
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+	position: absolute;
+	top:-27%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #34aadc;
+	border-top: 5px solid hsla #34aadc;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}
+/*[data-tooltip]:after {
+	position: absolute;
+	bottom:82%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #34aadc;
+	border-top: 5px solid hsla #34aadc;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}*/
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before, [data-tooltip]:hover:after {
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+
+
+
+
+
+/*.frmlabel{
+color:#888888;
+font-weight:normal;
+}*/
+
+/*#sysforeproduct option{
+     width:150px;   
+    }*/
+	
+	
+	  @media (max-width: 320px) {
+ .form-control #sysforeproduct option {
+ width:50px;
+}
+
+div.text .more-text{
+    display: block;
+	
+}
+
+div.text .more{
+    display:none;
+}
+}
+
+/*   For Logos width increase in about-us page **********/
+ @media {
+ .iconbox .iconbox-content .thumbnail {
+ width: 350px;
+}
+}
+.iconbox .iconbox-content .thumbnail {
+	width: 270px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	padding:25px;
+}
+/* Clients---> HOME PAGE bottom images*/
+.clients.carousel .client {
+	background-color:#e6ebec;
+	border:1px solid #ced5d6;
+}
+.breadcrumbs ul li {
+	font-size: 15px;
+}
+.clients.carousel .thumbnail {
+	width: 175px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	padding:25px;
+}
+/* Container DIV - automatically generated */
+.simply-scroll-container {
+	position: relative;
+}
+/* Clip DIV - automatically generated */
+.simply-scroll-clip {
+	position: relative;
+	overflow: hidden;
+	top: 56px;
+}
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+/* Master button styles - note that up and down versions 
+have been removed in this example */
+
+.simply-scroll-btn {
+	position: absolute;
+	/*background-image: url(buttons.png);*/  /*commented cz of 404 error*/
+	width: 36px;
+	height: 36px;
+	z-index:3;
+	cursor: pointer;
+}
+.simply-scroll-btn-left {
+	left: -58px;
+	top: 90px;
+	background-position: 84px -44px;
+	background-color: #34AADC;
+	border: 1px solid #34AADC;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	color: #FFFFFF;
+	padding: 10px 12px;
+	font-size: 13px;
+	line-height: 1;
+	height:36px;
+}
+.simply-scroll-btn-left:before {
+	font-family: 'FontAwesome';
+	content: "\f104";
+}
+.simply-scroll-btn-left.disabled {
+	background-position: 0 0 !important;
+}
+.simply-scroll-btn-left:hover {
+	background-position: 0 -88px;
+}
+.simply-scroll-btn-right {
+	right: -58px;
+	top: 90px;
+	background-position: 0 -44px;
+	background-color: #34AADC;
+	border: 1px solid #34AADC;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	color: #FFFFFF;
+	padding: 10px 12px;
+	font-size: 13px;
+	line-height: 1;
+	height:36px;
+}
+.simply-scroll-btn-right:before {
+	font-family: 'FontAwesome';
+	content: "\f105";
+}
+.simply-scroll-btn-right.disabled {
+	background-position: 84px 0 !important;
+}
+.simply-scroll-btn-right:hover {
+	background-position: 84px -88px;
+}
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll {
+	width: 90%;
+	height: 180px;
+	margin:-50px auto 25px auto;
+}
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width:100%;
+	height: 110px;
+}
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	width: 247px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	margin-right:20px;
+}
+.tab.tab-colored .tab-heading {
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+	display: table;
+	width: 100%;
+}
+.tab-content {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+/*.title.title-section {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}*/
+
+.toggle-topbar.menu-icon {
+    margin-top: -1px;
+    padding-left: 40px;
+    right: 15px;
+    top: 50%;
+}
+
+
+
+.top-bar .toggle-topbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#main-menu ul.dropdown:not(.megamenu-category) a:not(.btn),
+#main-menu ul.megamenu-category .category-nav a  {
+color:#34aadc;
+}
+#mobile-menu li + li {
+					/*border-left: 1px solid #e5e5e5;*/
+				}
+				
+			.slider-sub-title {
+			text-transform: none;
+		}
+		
+		.page-slider-wrap .btn {
+			background-color:#ffffff;
+		}
+		.iconbox.iconbox-style4 .iconbox-heading .icon img {
+		padding-top: 20px;
+	}
+	
+	
+	
+	
+	/* 	:: :::::: :: */
+/* 	:: TO BOTTOM :: */
+/* 	:: :::::: :: */
+#toBottom {
+	margin-top: -260px;
+	padding: 0;
+	color: #fff;
+	border-radius: 3px;
+	right: 10px;
+	bottom: 10px;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	z-index: 2400;
+	border-radius: 50%;
+
+	-webkit-transition: margin-bottom 0.2s ease-out, background-color 0.1s linear;
+	-moz-transition: margin-bottom 0.2s ease-out, background-color 0.1s linear;
+	-o-transition: margin-bottom 0.2s ease-out, background-color 0.1s linear;
+	-ms-transition: margin-bottom 0.2s ease-out, background-color 0.1s linear;
+	transition: margin-bottom 0.2s ease-out, background-color 0.1s linear;
+}
+#toBottom:active {
+	top:0px;
+	left: auto;
+	right: 9px;
+	bottom: 9px;
+}
+html.scroll #toBottom {
+	margin-top: 0;
+}
+
+
+.btn.btn-icon-bottom:before {
+	font-family: 'FontAwesome';
+	content: "\f107";
+}
+
+@media screen and (max-width: 768px) {
+#toBottom {
+visibility: hidden;
+display:none;
+}
+div.text .more-text{
+    display: block;
+	
+}
+
+div.text .more{
+    display:none;
+}
+}
+	
+/*Sub menu indent*/
+	#main-menu ul.dropdown:not(.megamenu-category) {
+	margin-left:15px;
+	}
+/*Sub menu indent*/	
+.more-text{
+
+}
+.you-tubelink{
+margin-top:20px;
+}	
+
+div.text .more-text{
+    display: none;
+	margin-top:20px;
+}
+
+div.text .more{
+    display:block;
+}
+.site-bestviewed{
+font-size:12px;
+/*color: rgba(255, 255, 255, 0.3);*/
+}
+.topbar .social a.icomoon-linkedin {
+					background-color: #0073b2;
+				}
+/*.sysforehrms-moredetails{
+width:auto; 
+padding:10px 20px 20px 20px; 
+background-color:#34AADC; 
+height:60px; 
+z-index:9999; 
+position:fixed; 
+left:0px; 
+bottom:0px;
+color:#ffffff;
+opacity:0.8;
+}*/
+
+
+.sysforehrms-moredetails {
+	width:auto;
+	padding:10px 20px 10px 20px;
+	background-color:#0099FF;
+	/*height:60px; */
+opacity:0.8;
+	z-index:9999;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	color:#ffffff;
+}
+.sysforehrms-moredetails a {
+	color:#2d343e;
+	text-decoration:underline;
+}
+
+.sysforehrms-link{
+color:#2d343e;
+text-decoration:underline;
+}	
+
+@media screen and (max-width: 768px) {
+.sysforehrms-moredetails{
+width:auto; 
+padding:10px 20px 20px 20px; 
+background-color:#34AADC; 
+height:60px; 
+z-index:9999; 
+position:fixed; 
+bottom:0; 
+left:0px; 
+color:#ffffff;
+opacity:0.8;
+}
+}
+
+.cldhstservices {
+    color:#F79646;
+    font-weight:bold;
+}
+.cldbannertxt{
+color:#fff;
+text-transform:uppercase;
+}
+.azuresolutnpartnerbnrtxt {
+color:#fff;
+text-transform:uppercase;
+font-size: 30px;
+}
+.cldbannertxtsignup{
+color:#C7E339;
+}
+.titlesectionftr {
+    margin-bottom: 10px !important;
+    margin-top: 10px  !important;
+    color:#fff !important;
+}
+.titlesectionftranchor {
+    color:#fff !important;
+}
+.social1{
+text-align:center !important;
+}
+.social a.linkedin:hover {
+background-color: #0073B2;
+}
+.social a.linkedin:before {
+content: "\e79f";
+}
+.cldhstservicesbnrtopfrm {
+    color: #2d343e;
+    float: left;
+    line-height: 1;
+    overflow: hidden;
+    width: 100%;
+    z-index: 0;
+    position:absolute;
+}
+.cldhstservicesbnrtop {
+  /*margin-top:163px;*/
+   margin-top:250px;
+}
+.cldhstservicestxtfield {
+    padding:0px 3px 0px 3px;
+    margin-bottom:20px;
+}
+.cldhstobjectives{
+border:1px solid #EBEBEB;
+background-color:#EBEBEB;
+margin-top:-52px;
+border-radius:2px;
+}
+.expmoresys{
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin-top: -152px;
+}
+.cldhstlist {
+padding:0px 12px 0px 12px !important;
+font-size:13px;
+}
+.cldhstlistmoredetails {
+    padding:0px 12px 0px 12px !important;
+}
+.cldbnnertxtmrgn {
+    padding:55px 0px 20px 0px;
+}
+.frm-bx-size {
+    border:1px solid #F36523;
+    background-color:#F36523;
+    padding:0px 5px 0px 5px;
+}
+@media screen and (max-width: 320px) {
+    .frm-bx-size {
+        border: 1px solid #F36523;
+        background-color: #F36523;
+        padding: 0px 10px 0px 10px;
+    }
+    .cldhstobjectives {
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin-top: 30px;
+   }
+    .expmoresys {
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin-top: 17px;
+   }
+}
+
+
+
+@media screen and (max-width: 600px) {
+ .cldhstservicesbnrtop {
+        /*margin-top:163px;*/
+        margin-top: 10px;
+    }
+    .cldhstobjectives {
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin-top: 42px;
+    } 
+    .expmoresys {
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin-top: 27px;
+   }
+   
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .cldhstservicesbnrtopfrm {
+    color: #2d343e;
+    float: left;
+    line-height: 1;
+    overflow: hidden;
+    width: 100%;
+    z-index: 0;
+    position:relative; 
+}
+    
+    .cldhstservicesbnrtop {
+        margin-top:0px;
+
+    }
+    .cldhstobjectives {
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin-top: 15px;
+    }
+    .expmoresys {
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin-top: 8px;
+    }
+    .right-video { margin-top:10px;}	
+
+}
+
+#footer-landingpage{
+    background-color: #2d343e;
+    border-top: 5px solid rgba(255, 255, 255, 0.1);
+    clear: both;
+    color: rgba(255, 255, 255, 0.3);
+    padding-top: 0px;
+    position: relative;
+    display:block;
+}
+.footer-landingpage {
+    padding-top: 0px !important;
+}
+
+.right-video { margin-top:-100px;}
+
+
+
+#main-menu li a:hover {
+    color: #34aadc !important;
+}	
+#main-menu li .dropdown li a:hover  {
+    color: #fff !important;
+}

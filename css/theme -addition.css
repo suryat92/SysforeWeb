@@ -1,0 +1,164 @@
+ .table-color{
+            background-color:white;
+            border:1px solid rgba(0,0,0,0.2);
+            padding:0;
+        }
+        .table-color tr td{
+            
+                border-top: 1px solid #dcdcdc;
+        }
+        .td-color{
+            background-color: #d9e6ea!important;
+        }
+    
+    .table-color tr ul, .table-color h3{
+        margin:0;
+    }
+    .table-center th, .table-center td{
+        text-align:center!important;
+    }
+    .call-us{
+       
+        border: 1px solid #dcdcdc;
+        border-radius:4px;
+       
+        padding:10px;
+        background-color: #d9e6ea; 
+        font-size:15px; 
+        margin:10px 10px 0 10px;
+
+    }
+    .icon{
+        width:20px;
+        height:20px;
+    }
+    .red-font{
+        color: #C89610;
+        font-size:20px;
+    }
+    .window-logo{
+        width:50px;
+        height:50px;
+    }
+    .para, .para1{
+        margin:10px;
+    }
+    .para1{
+        margin-top:80px;
+    }
+    .info{
+        font-size:18px; 
+    }
+    .hidden{
+        display:none;
+    }
+    .visible{
+        display:block;
+    }
+ .colorText{
+     
+     color:#7030A0;
+ }
+ .sysforelogo{
+     margin-top:-10px!important;
+  
+ }
+ .margin-adjust{
+     margin-top:70px!important;
+ }
+ .aws{
+     width:150px;
+ }
+ .micro{
+ height:60px;
+ }
+    @media screen and (max-width:991px){
+        .visible{
+            display:none;
+        }
+        .hidden{
+            margin-bottom:20px;
+            display:block;
+        }
+        .margin-adjust{
+            margin:0px 0px 30px 0px!important; 
+        }
+
+    .sysforelogo{
+        margin-top:5px!important;
+    }
+    .logoamazon{
+         margin-bottom:10px;
+         width:75%;
+    }
+    .resp{
+        margin:10px 0px!important;
+    }
+    .disc{
+        margin-top:10px!important;
+    }
+ 
+  
+    }
+@media screen and (max-width:991px ) and (min-width:768px) {
+.micro{
+   height:40px !important;
+       width:100px !important;
+       margin-bottom:10px;
+        margin-top:10px;
+}
+.logoclass{
+            margin-top:10px;
+    height:50px !important;
+    width:180px !important;
+}
+}
+@media screen and (max-width:767px) and (min-width:462px) {
+    .banner-para {
+        margin-top: 10px !important;
+    }
+
+    .micro {
+        padding: 0;
+        height: 30px !important;
+        width: 100px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .logoclass {
+        padding: 0;
+        margin-top: 10px;
+        height: 28px !important;
+        width: 115px !important;
+    }
+
+    .aws {
+        padding: 0;
+        margin-top: 10px;
+        height: 50px !important;
+        width: 75px !important;
+    }
+}
+@media screen and (max-width:461px){
+    .aws{
+          padding:0;
+    margin-top:10px;
+    height:50px !important;
+    width:50px !important;
+}
+    .micro{
+        padding: 0;
+        height: 30px !important;
+        width: 50px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .logoclass{
+        padding: 0;
+        height:30px !important;
+        width:90px !important;
+        margin-right:10px;
+        margin-top:15px;
+    }
+}
